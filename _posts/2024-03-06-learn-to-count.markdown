@@ -24,7 +24,7 @@ Here are a few rules for index manipulation:
 2. index + *# of elements* = index
     * What's the index of 10 elements after C[5]?
 3. *# of elements* + *# of elements* = *# of elements*
-    * If 10 elements in A, and 5 elements in B, how many element are there in total?
+    * If 10 elements in A, and 5 elements in B, how many elements are there in total?
 4. index + index = ??
     * Does __not__ make logical sense, unless they are a part of a bigger expression that is somehow reordered, or the index happens to mean something else.
 
@@ -78,10 +78,15 @@ def select_kth(arr1: List[int], arr2: List[int], k: int):
 ```
 <span style="color:white"><sub><sub><sub><sub>To be honest, I don't see how a typical programmer could reasonably come up with the solution in 45 minutes under interview pressure, and even if they've done it before, kudos to them if they can remember all the boundary values; I'd say they deserve they deserve the role not for programming, but for memory recall under pressure.</sub></sub></sub></sub></span>
 
-Thank you for reading, and I wish you gained some insights. The key is that when you are operating on indices, you are actually counting the number of elements, or offsetting an index with a count.
+Thank you for reading, and I hope you gained some insights. The key is that when you are operating on indices, you are actually counting the number of elements, or offsetting an index with a count.
 
 Here's a final brain teaser: How many years are there between 2023 and 2022, and why doesn't __*b-a+1*__ apply?
 
 ----
 ### References
-TODO
+[1] [Fencepost error](https://en.wikipedia.org/wiki/Off-by-one_error#Fencepost_error)  
+[2] [Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm#Procedure)  
+[3] [Sliding Window](https://www.geeksforgeeks.org/window-sliding-technique/)  
+[4] [Median of two sorted arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)  
+[5] [Java subarray](https://commons.apache.org/proper/commons-lang/apidocs/org/apache/commons/lang3/ArrayUtils.html#subarray-T:A-int-int-)  
+[6] [Python array slicing](https://en.wikipedia.org/wiki/Array_slicing#1991:_Python)  
