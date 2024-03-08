@@ -76,7 +76,7 @@ def select_kth(arr1: List[int], arr2: List[int], k: int):
         else:
             return arr?[??]
 ```
-<span style="color:white"><sub><sub><sub><sub>To be honest, I don't see how a typical programmer could reasonably come up with the solution in 45 minutes under interview pressure, and even if they've done it before, kudos to them if they can remember all the boundary values; I'd say they deserve they deserve the role not for programming, but for memory recall under pressure.</sub></sub></sub></sub></span>
+<span style="color:white"><sub><sub><sub><sub>To be honest, it's hard to imagine that a typical programmer could come up with the solution and code it properly within 45 minutes under interview pressure.</sub></sub></sub></sub></span>
 
 Thank you for reading, and I hope you gained some insights. The key is that when you are operating on indices, you are actually counting the number of elements, or offsetting an index with a count.
 
